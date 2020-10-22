@@ -41,6 +41,7 @@ Este sistema será para empresas calificadas como responsable inscripto (RI), po
 tanto, en la gestión de ventas se emitirán facturas del tipo A. La factura A detallará el
 CUIT del comprador, nombre y apellido o razón social y el Impuesto del Valor Agregado
 entre otros.
+
 STOCK - PRODUCTOS
 ------------
 Este sistema presentará un modelo de stock basado en archivos en el cual podremos
