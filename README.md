@@ -3,7 +3,7 @@ Proyecto de sistema pyme para la UTN FRGP
 ##Integrantes:
 ------------------------------
 **AREVALO, R. Eugenio**
-!["AREVALO, R. Eugenio"]
+
 **AROSTEGUI, Isidoro**
 
 **AYALA, Elizabeth C.**
