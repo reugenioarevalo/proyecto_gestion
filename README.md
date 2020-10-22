@@ -53,29 +53,29 @@ Contaría con los siguientes módulos estimativos
 
 CONTABILIDAD
 ------------
- Libro Mayor
- Libro Diario
- Asientos Manuales
- Sumas y saldos
- Cierre de caja
- Apertura de caja
+- Libro Mayor
+- Libro Diario
+- Asientos Manuales
+- Sumas y saldos
+- Cierre de caja
+- Apertura de caja
 
 
 VENTAS
 ------------
- Registro de Ventas
- Emisión de comprobante
+- Registro de Ventas
+- Emisión de comprobante
 
 
 COMPRAS
 ------------
- Orden de compras
- Pagos a proveedores
+- Orden de compras
+- Pagos a proveedores
 
 
 STOCK/PRODUCTOS
 ------------
- Inventario
- Carga de almacén
-CLASES
-Dejamos algunos de los diagramas de clases con los que contaría
+- Inventario
+- Carga de almacén
+
+
