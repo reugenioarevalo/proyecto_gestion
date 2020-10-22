@@ -1,7 +1,7 @@
 # Sistema de administración contable para PYMEs
 Proyecto de sistema pyme para la UTN FRGP
 
-##Integrantes:##
+**[Integrantes:]**
 ------------------------------
 **AREVALO, R. Eugenio**
 
