@@ -1,5 +1,5 @@
 # Sistema de administración contable para PYMEs
-Proyecto de sistema pyme para la UTN FRGP
+TP LAB 2 2020 UTN FRGP
 
 **[Integrantes:]**
 ------------------------------
