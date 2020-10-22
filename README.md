@@ -1,10 +1,10 @@
-# Sistema de administración de PYMEs
+# Sistema de administración contable para PYMEs
 Proyecto de sistema pyme para la UTN FRGP
 ##Integrantes:
-AREVALO, R. Eugenio
-AROSTEGUI, Isidoro
-AYALA, Elizabeth C.
-QUINTEROS, David
+**AREVALO, R. Eugenio**
+**AROSTEGUI, Isidoro**
+**AYALA, Elizabeth C.**
+**QUINTEROS, David**
 15/10/2020
 UTN FRGP – Laboratorio de Computación II
 INTRODUCCION
