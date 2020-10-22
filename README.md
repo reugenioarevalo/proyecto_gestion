@@ -1,6 +1,6 @@
 # Sistema de administración de PYMEs
 Proyecto de sistema pyme para la UTN FRGP
-Integrantes:
+##Integrantes:
 AREVALO, R. Eugenio
 AROSTEGUI, Isidoro
 AYALA, Elizabeth C.
