@@ -63,6 +63,9 @@ STOCK - PRODUCTOS
 Este sistema presentará un modelo de stock basado en archivos en el cual podremos
 cargar productos de forma manual o podrán aumentar mediante una compra realizada
 por la empresa o disminuir por una venta realizada.
+*Sotck:*
+!["Prodcutos"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/productos.JPG?raw=true )
+
 
 MODULOS
 ------------
