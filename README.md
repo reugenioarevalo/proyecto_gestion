@@ -28,6 +28,10 @@ archivo de movimientos contables, es decir, indicara si la operación proviene d
 sistema de compras o de ventas, asientos manuales, u otra operación. Calculará,
 además impuestos del 10,5%, 21% según operaciones realizadas. Por otro lado, estos
 impuestos se verán reflejados tanto en facturas como en órdenes de compras.
+*Libro Diario:*
+!["Libro Diario"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/libro%20diario1.JPG?raw=true "Libro Diario")
+
+
 
 COMPRAS
 ------------
@@ -43,7 +47,7 @@ CUIT del comprador, nombre y apellido o razón social y el Impuesto del Valor Ag
 entre otros.
 
 *Facturas y Detalle:*
-!["Facturas y Detalle"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/detalleweb.png?raw=trueg "Detalle de facturas y facturas")
+!["Facturas y Detalle"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/detalleweb.png?raw=true "Detalle de facturas y facturas")
 
 
 STOCK - PRODUCTOS
