@@ -31,13 +31,21 @@ impuestos se verán reflejados tanto en facturas como en órdenes de compras.
 *Libro Diario:*
 !["Libro Diario"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/libro%20diario1.JPG?raw=true "Libro Diario")
 
+ENTIDADES
+------------
+La clase Entidad contendrá datos de los CLientes y Proveedores distinguiendolos con un campo TipoEntidad, y utilizaría un unico archivo para donde guardar los datos. 
 
+*Entidades:*
+!["Entidades"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/entidades.JPG?raw=true )
 
 COMPRAS
 ------------
 El sistema registrará las operaciones que impliquen la adquisición de bienes y/o
 servicios, contabilizando mediante el código de proveedor, y discriminado los ítems de
 la FC según corresponda
+
+*Compras:*
+!["Compras"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/productos.JPG?raw=true )
 
 VENTAS
 ------------
