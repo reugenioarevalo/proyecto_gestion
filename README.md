@@ -18,7 +18,7 @@ INTRODUCCION
 El sistema a desarrollar permitirá simular la administración contable de una Pyme. Contará con un menú principal y una serie de submenúes que serán la interfaz grafica
 para la gestión de contabilidad , compras, ventas y stock.
 *Menues:*
-!["Menues"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/menus.png?raw=true "Libro Diario")
+!["Menues"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/menus.png?raw=true "Libro Diario")
 
 CONTABILIDAD
 ------------
@@ -26,14 +26,14 @@ El objetivo principal del programa es llevar a cabo el registro contable de la e
 sistema de compras o de ventas, asientos manuales, u otra operación. Calculará, además descuentos, recargos e impuestos del 10,5%, 21% según corresponda. Por otro lado, estos
 impuestos se verán reflejados tanto en facturas A en forma discriminadas y en el tipo B en el total final.
 *Libro Diario:*
-!["Libro Diario"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/libro%20diario1.JPG?raw=true "Libro Diario")
+!["Libro Diario"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/libro%20diario1.JPG?raw=true "Libro Diario")
 
 ENTIDADES
 ------------
 La clase Entidad contendrá datos de los CLientes y Proveedores distinguiendolos con un campo TipoEntidad, y utilizaría un unico archivo para donde guardar los datos. 
 
 *Entidades:*
-!["Entidades"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/entidades.JPG?raw=true )
+!["Entidades"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/entidades.JPG?raw=true )
 
 COMPRAS
 ------------
@@ -41,7 +41,7 @@ El sistema registrará las operaciones que impliquen la adquisición de bienes y
 la FC según corresponda, impactará en el listado de productos para el sistema de stock y resolverá los asientos automaticamente bajo la imputacion COMPRAS
 
 *Compras:*
-!["Compras"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/productos.JPG?raw=true )
+!["Compras"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/productos.JPG?raw=true )
 
 VENTAS
 ------------
@@ -49,14 +49,14 @@ Este módulo de ventas será para personas juridicas y fisicas, responsables ins
 entre otros.
 
 *Facturas y Detalle:*
-!["Facturas y Detalle"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/detalleweb.png?raw=true "Detalle de facturas y facturas")
+!["Facturas y Detalle"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/detalleweb.png?raw=true "Detalle de facturas y facturas")
 
 
 STOCK - PRODUCTOS
 ------------
 Este sistema presentará un modelo de stock basado en el archivos de Productos, del cual podremos listar todos los productos de un proveedor, como asi también realizar reportes de productos con el stock minimo afectado, de manera que se pueda emitir una orden de compras.
 *Sotck:*
-!["Prodcutos"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/productos.JPG?raw=true )
+!["Prodcutos"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/productos.JPG?raw=true )
 
 
 MODULOS
