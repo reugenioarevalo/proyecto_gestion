@@ -41,7 +41,8 @@ Este sistema será para empresas calificadas como responsable inscripto (RI), po
 tanto, en la gestión de ventas se emitirán facturas del tipo A. La factura A detallará el
 CUIT del comprador, nombre y apellido o razón social y el Impuesto del Valor Agregado
 entre otros.
-Facturas y Detalle:
+
+*Facturas y Detalle:*
 !["Facturas y Detalle"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/detalleweb.png?raw=trueg "Detalle de facturas y facturas")
 
 
