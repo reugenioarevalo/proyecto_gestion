@@ -42,6 +42,10 @@ tanto, en la gestión de ventas se emitirán facturas del tipo A. La factura A d
 CUIT del comprador, nombre y apellido o razón social y el Impuesto del Valor Agregado
 entre otros.
 
+*Facturas y Detalle:*
+!["Facturas y Detalle"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/detalleweb.png?raw=trueg "Detalle de facturas y facturas")
+
+
 STOCK - PRODUCTOS
 ------------
 Este sistema presentará un modelo de stock basado en archivos en el cual podremos
