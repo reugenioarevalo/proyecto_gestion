@@ -15,9 +15,10 @@ TP LAB 2 2020 UTN FRGP
 
 INTRODUCCION
 ------------
-El sistema a desarrollar permitirá simular la administración contable de una Pyme.
-Contará con un menú principal y una serie de submenúes que serán la interfaz grafica
+El sistema a desarrollar permitirá simular la administración contable de una Pyme. Contará con un menú principal y una serie de submenúes que serán la interfaz grafica
 para la gestión de contabilidad , compras, ventas y stock.
+*Menues:*
+!["Menues"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/menus.png?raw=true "Libro Diario")
 
 CONTABILIDAD
 ------------
