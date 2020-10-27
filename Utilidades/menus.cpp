@@ -7,24 +7,29 @@
 #include <cctype>
 #include <algorithm>
 #include <iomanip>
+using namespace std;
 #include "../Utilidades/menus.h"
 #include "../Utilidades/ui.h"
 #include "../Utilidades/rlutil.h"
-#include "../Include/Cliente.h"
+#include "../Include/Entidad.h"
+#include "../Include/Compra.h"
+#include "../Include/DetalleFactura.h"
 
 using namespace rlutil;
-using namespace std;
+
+
+///---------------------------------------------- MENU PRINCIPAL
 
 void menuPrincipal(){
 
         const int POSMENUX = 0;
-        const int POSMENUY = 1;
+        const int POSMENUY = 0;
         const int COLOR_PANTALLA = BLACK;
         const int LETRA = WHITE;
         const int FONDO = RED;
 
     setlocale(LC_ALL, "spanish");
-    setConsoleTitle("TONGA GESTION");
+//    setConsoleTitle("TONGA GESTION");
     const int ANCHO_MENU = 75;
     const int ALTO_MENU = 8;
     int key, opc, cursorX, cursorY;
@@ -35,8 +40,10 @@ void menuPrincipal(){
       system("cls");
       opc=1;
       setColor(LETRA);
-      //setBackgroundColor(FONDO);
+//      setBackgroundColor(FONDO);
       locate(POSMENUX+5,POSMENUY+1);
+//      locate(POSMENUX+5,POSMENUY+2);
+//    cout<<"Usario Logueado: " ;oLogout.getUser();
       title("TONGA GESTION", WHITE, RED);
       locate(POSMENUX+3,POSMENUY+3);
       cout << "1. COMPRAS";
@@ -95,8 +102,7 @@ void menuPrincipal(){
                 menuVentas();
         break;
         case 3:
-                cout << "Opcion 3";
-                system("pause");
+				menuInventario();
         break;
         case 4:
                 cout << "Opcion 4";
@@ -110,8 +116,8 @@ void menuPrincipal(){
                 cout << "Opcion 6";
                 system("pause");
         break;
-        case 0:
-        return;
+        case 0: return;
+//        oLogout.setLogin(false);
         break;
         default:cout<<" OPCION INCORRECTA"<<endl;
                 break;
@@ -120,6 +126,8 @@ void menuPrincipal(){
     return;
 }
 
+///---------------------------------------------- MENU COMPRAS
+
 void menuCompras(){
 
         const int POSMENUX = 0;
@@ -127,6 +135,8 @@ void menuCompras(){
         const int COLOR_PANTALLA = BLACK;
         const int LETRA = WHITE;
         const int FONDO = BLUE;
+        Entidad EntidadPiloto;
+        Compras compraPiloto;
 
 
     setlocale(LC_ALL, "spanish");
@@ -195,18 +205,20 @@ void menuCompras(){
       showcursor();
       switch(opc){
         case 1:
-                menuCompras();
+			compraPiloto.cargarCompras();
+			compraPiloto.grabarEnDisco();
         break;
         case 2:
-                menuVentas();
+                //menuVentas();
         break;
         case 3:
                 cout << "Opcion 3";
                 system("pause");
         break;
         case 4:
-                cout << "Opcion 4";
-                system("pause");
+                EntidadPiloto.cargarProveedor();
+                EntidadPiloto.mostrarEntidad();
+                EntidadPiloto.grabarEnDisco(2);
         break;
         case 5:
                 cout << "Opcion 5";
@@ -227,6 +239,8 @@ void menuCompras(){
 
 }
 
+///---------------------------------------------- MENU VENTAS
+
 void menuVentas(){
 
         const int POSMENUX = 0;
@@ -234,7 +248,7 @@ void menuVentas(){
         const int COLOR_PANTALLA = BLACK;
         const int LETRA = WHITE;
         const int FONDO = BLUE;
-        Cliente clientePiloto;
+        Entidad EntidadPiloto;
 
 
     setlocale(LC_ALL, "spanish");
@@ -254,11 +268,11 @@ void menuVentas(){
       locate(POSMENUX+3,POSMENUY+3);
       cout << "1. CARGAR VENTA";
       locate(POSMENUX+3,POSMENUY+4);
-      cout << "2. LISTAR VENTA POR ID";
+      cout << "2. IMPRIMIR ULTIMA FACTURA";
       locate(POSMENUX+3,POSMENUY+5);
       cout << "3. LISTAR TODAS LAS VENTAS";
       locate(POSMENUX+3,POSMENUY+6);
-      cout << "4. CARGAR CLIENTE";
+      cout << "4. CARGAR CLIENTE"; /// ver como validad que no cargue en el arhcivo incorrecto
       locate(POSMENUX+3,POSMENUY+7);
       cout << "5. LISTAR CLIENTE POR ID";
       locate(POSMENUX+3,POSMENUY+8);
@@ -306,25 +320,25 @@ void menuVentas(){
                 system("pause");
         break;
         case 2:
-                cout << "Opcion 3";
+                 mostrarDetalle();
                 system("pause");
         break;
         case 3:
-                cout << "Opcion 3";
+               listado_facturas();
                 system("pause");
         break;
         case 4:
-                clientePiloto.cargarCliente();
-                clientePiloto.mostrarCliente();
-                clientePiloto.grabarEnDisco();
+                EntidadPiloto.cargarCliente();
+                EntidadPiloto.mostrarEntidad();
+                EntidadPiloto.grabarEnDisco(1);
                 system("pause");
         break;
         case 5:
-                listarClientePorID();
+//            mostrarDetalle();
                 system("pause");
         break;
         case 6:
-                listarClientes();
+                listarEntidades(1);
                 system("pause");
         break;
         case 0:
