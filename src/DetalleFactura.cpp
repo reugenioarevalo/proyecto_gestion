@@ -96,19 +96,21 @@ void listado_facturas(){
         }
 
 void  mostrarDetalle(){
-    system("color 0F");
+//    system("color 1E");
 //    system("color 4F");
+    system("color 0F");
     float  sTot, sIva, tTot, tPrUn;
     DetalleFactura aux,fac;
     fac.leerDeDisco(0);
     Entidad cli;
-    cli.leerDeDisco(aux.codEnt, 'CLIENTE');
+    cli.leerDeDisco(aux.codEnt, 1);
+//    cli.leerDeDisco();
     char a='d'+42;
     int i = 0;
     setBackgroundColor(RED);
         cout<<endl;
         cout<<"|"<<setw(89)<<setfill('¯')<<"|"<<endl;
-        cout<<"|"<<setw(88)<<centrar("FACTURA", 88)<<"|"<<endl;
+        cout<<"|"<<setw(88)<<centrar("FACTURA TIPO A", 88)<<"|"<<endl;
         cout<<"|"<<setw(89)<<setfill('_')<<"|"<<endl;
         cout<<"|"<<setw(89)<<setfill(' ')<<"|"<<endl;        cout<<"|"<<setw(69)<<""<<"Nro Fac: 0000-00"<<fac.nroFactura<<"|"<<endl;
         //cout<<cli.getApenom()<<endl;

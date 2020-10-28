@@ -7,15 +7,16 @@
 #include <cctype>
 #include <algorithm>
 #include <iomanip>
+
 using namespace std;
+#include "ui.h"
+#include "rlutil.h"
+using namespace rlutil;
 #include "../Utilidades/menus.h"
-#include "../Utilidades/ui.h"
-#include "../Utilidades/rlutil.h"
 #include "../Include/Entidad.h"
 #include "../Include/Compra.h"
 #include "../Include/DetalleFactura.h"
 
-using namespace rlutil;
 
 
 ///---------------------------------------------- MENU PRINCIPAL
@@ -136,7 +137,7 @@ void menuCompras(){
         const int LETRA = WHITE;
         const int FONDO = BLUE;
         Entidad EntidadPiloto;
-        Compras compraPiloto;
+//        Compras compraPiloto;
 
 
     setlocale(LC_ALL, "spanish");
@@ -205,8 +206,8 @@ void menuCompras(){
       showcursor();
       switch(opc){
         case 1:
-			compraPiloto.cargarCompras();
-			compraPiloto.grabarEnDisco();
+//			compraPiloto.cargarCompras();
+//			compraPiloto.grabarEnDisco();
         break;
         case 2:
                 //menuVentas();

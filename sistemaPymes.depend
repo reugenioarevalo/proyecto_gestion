@@ -557,7 +557,7 @@
 
 1603682094 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\centrartabla.h
 
-1603471254 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\main.cpp
+1603859667 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\main.cpp
 	<iostream>
 	<iomanip>
 	<cstdlib>
@@ -576,11 +576,11 @@
 
 1603061752 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\menus.h
 
-1603413295 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\persona.h
+1603854820 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\persona.h
 	"Direccion.h"
 	"Fecha.h"
 
-1603238805 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\direccion.h
+1603851424 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\direccion.h
 	"Direccion.h"
 	"Fecha.h"
 	"string.h"
@@ -588,9 +588,9 @@
 1603139423 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\fecha.h
 	<time.h>
 
-1603215020 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\validaciones.h
+1603853644 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\validaciones.h
 
-1603413295 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\entidad.h
+1603855379 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\entidad.h
 	"../Include/Persona.h"
 
 1603413295 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\ventas.h
@@ -608,21 +608,13 @@
 
 1603238712 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\calculadora.h
 
-1603413295 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\compra.cpp
-	<cstdlib>
-	<iostream>
-	<cstdio>
-	<cstring>
-	<conio.h>
-	<time.h>
-	"../include/Compra.h"
-	"../include/Producto.h"
+1603848799 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\compra.cpp
 
-1603413295 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\compra.h
+1603848799 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\compra.h
 
 1603329811 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\producto.h
 
-1603683662 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\detallefactura.cpp
+1603853371 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\detallefactura.cpp
 	<iostream>
 	<cstdlib>
 	<cstring>
@@ -638,7 +630,7 @@
 
 1603682094 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\centrartabla.h
 
-1603061752 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\ui.h
+1603858997 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\ui.h
 
 1603061752 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\rlutil.h
 	<iostream>
@@ -654,14 +646,14 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1603238805 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\direccion.cpp
+1603851356 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\direccion.cpp
 	<iostream>
 	<cstdlib>
 	<iomanip>
 	"Direccion.h"
 	"Fecha.h"
 
-1603413295 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\entidad.cpp
+1603859241 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\entidad.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
@@ -669,10 +661,11 @@
 	<stdlib.h>
 	"../Utilidades/menus.h"
 	"Persona.h"
-	"../Utilidades/ui.h"
-	"../Utilidades/rlutil.h"
 	"../Utilidades/validaciones.h"
 	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
 
 1603144284 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\fecha.cpp
 	<iostream>
@@ -690,7 +683,7 @@
 	<conio.h>
 	"Login.h"
 
-1603413295 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\persona.cpp
+1603852784 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\persona.cpp
 	<iostream>
 	<cstring>
 	<iomanip>
@@ -732,7 +725,7 @@
 	<sstream>
 	"centrarTabla.h"
 
-1603496722 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\menus.cpp
+1603848890 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\menus.cpp
 	<iostream>
 	<cstdio>
 	<stdlib.h>
@@ -742,20 +735,20 @@
 	<cctype>
 	<algorithm>
 	<iomanip>
+	"ui.h"
+	"rlutil.h"
 	"../Utilidades/menus.h"
-	"../Utilidades/ui.h"
-	"../Utilidades/rlutil.h"
 	"../Include/Entidad.h"
 	"../Include/Compra.h"
 	"../Include/DetalleFactura.h"
 
-1603061752 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\ui.cpp
+1603857926 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\ui.cpp
 	<iostream>
 	<cstring>
 	"ui.h"
 	"rlutil.h"
 
-1603238805 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\validaciones.cpp
+1603853649 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\validaciones.cpp
 	<iostream>
 	<string>
 	<string.h>

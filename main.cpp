@@ -18,7 +18,16 @@ using namespace std;
 
 int main()
 {
+//        DetalleCompra obj;
+//        obj.setidEntidad();
+        Entidad ent;
+//listarEntidades(2);
+//      ent.cargarProveedor();
+//        ent.grabarEnDisco(2);
+//     ent.mostrarEntidad();
+ent.listarEntidadesTabla(2);
 
+//       ent.leerDeDisco(1, 2);
         menuPrincipal();
 
     return 0;
