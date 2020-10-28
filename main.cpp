@@ -14,21 +14,27 @@ using namespace std;
 #include "DetalleFactura.h"
 #include "Ususario.h"
 #include "Login.h"
+#include "DetalleCompra.h"
 
 
 int main()
 {
-//        DetalleCompra obj;
-//        obj.setidEntidad();
-        Entidad ent;
-//listarEntidades(2);
-//      ent.cargarProveedor();
-//        ent.grabarEnDisco(2);
-//     ent.mostrarEntidad();
+
+///test de entidades
+Entidad ent;
+//ent.cargarProveedor();
+//ent.grabarEnDisco(2);
 ent.listarEntidadesTabla(2);
+///fin test entidades
 
-//       ent.leerDeDisco(1, 2);
-        menuPrincipal();
+///test detalleCompra
+    DetalleCompra obj;
+    obj.setProveedor();
+    cout<<endl;
+    obj.setIdProveedor();
+///Fin test detallecompras
 
+///Menu
+    menuPrincipal();
     return 0;
 }

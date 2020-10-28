@@ -233,7 +233,6 @@ void Entidad::listarEntidadesTabla(int _tipoEntidad){
                 return;
         }
     int i = 0;
-    //        char sing = getch();//selecciona un caracter para darle forma a tu tabla
     setBackgroundColor(DARKGREY);
     ///Inicio de cabecera
     cout<<"|"<<setw(4)<<centrar("ID", 4);
@@ -242,25 +241,25 @@ void Entidad::listarEntidadesTabla(int _tipoEntidad){
     cout<<"|"<<setw(20)<<centrar("APELLIDO Y NOMBRE", 20);
     cout<<"|"<<setw(20)<<centrar("DIRECCION ",20);
     cout<<"|"<<setw(20)<<centrar("EMAIL",20)<<"|"<<endl;
-//    cout<<"|"<<setw(30)<<centrar("TIPO",30)<<"|"<<endl;// CATEGORIA NO HACE FALTA
+
 
     setBackgroundColor(BLACK);
-//    cout<<"|"<<setw(106)<<setfill(' ')<<"|"<<endl;
+
     while (aux.leerDeDisco(i++, 2)){
         estadoAux = aux.getEstado();
         if(estadoAux == true){
-                cout<<left;
-            cout<<"|"<<setw(4)<<centrarInt(aux.idEntidad, 4);
+            cout<<left;
+            cout<<" "<<setw(4)<<centrarInt(aux.idEntidad, 4);
             cout<<" "<<setw(20)<<aux.razonSocial;
-            cout<<" "<<setw(16)<<centrar(aux.cuit, 16);
+            cout<<" "<<setw(16)<<aux.cuit;
             cout<<" "<<setw(20)<<aux.apenom;
-            cout<<" "<<setw(20)<<aux.domicilio.getCalle();            cout<<" "<<setw(20)<<aux.mail<<"|"<<endl;
+            aux.domicilio.mostrarDireccion();            cout<<" "<<setw(20)<<aux.mail<<" "<<endl;
 //            cout<<"|"<<setw(106)<<setfill('_')<<"|"<<endl;
         }
     }
 //    cout<<"|"<<setw(106)<<setfill(' ')<<"|"<<endl;
 cout<<right;
-    cout<<"|"<<setw(106)<<setfill('_')<<"|"<<endl;
+    cout<<" "<<setw(106)<<setfill('_')<<" "<<endl;
 
         system("pause");
         fclose(p);
@@ -268,6 +267,31 @@ cout<<right;
     break;
 
     }
+}
+Entidad Entidad::buscarRazonSocial(int tipoEnt){
+   Entidad user;
+char usIngresado[50];
+cout<<"\ningrese la razon social que busca : ";
+cin.getline(usIngresado, 50);
+     FILE *archivo;
+    ///abrimos el archivo
+    archivo = fopen(FILE_PROVEEDORES,"rb");
+    ///buscamos y leemos en el;
+    while(fread(&user, sizeof(Entidad), 1, archivo)){
+       if( strcmp(usIngresado, user.razonSocial)==NULL ){//busca un valor string en el archivo
+                cout<<user.razonSocial<<endl;
+                cout<<user.cuit<<endl;
+                idEntidad=user.idEntidad;
+                 cout<<idEntidad<<endl;
+            system("pause");
+                fclose(archivo);
+       }else{
+            cout<<"dato no encontrado!!!!"<<endl;
+            system("pause");
+            fclose(archivo);//            return -1;
+       }
+    }
+            return user;
 }
 
 ///--------------------- GLOBALES -------------------------
