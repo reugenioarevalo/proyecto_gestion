@@ -14,6 +14,7 @@ using namespace std;
 using namespace rlutil;
 
 const char * FILE_DETFAC = "Archivos/DetalleFacturas.dat";
+
 void DetalleFactura::CDetalleFactura(
    int _nroFactura,
    int _codProd,
@@ -37,6 +38,7 @@ void DetalleFactura::CDetalleFactura(
     estado            =                false;
 //    strcpy(tipoEnt, _tipoEnt) ;
 }
+
 bool DetalleFactura::guardarEnDisco(int posicion){
         bool grabo;
         FILE *p;
@@ -50,7 +52,8 @@ bool DetalleFactura::guardarEnDisco(int posicion){
         fclose(p);
         return grabo;
     }
-    bool DetalleFactura::leerDeDisco(int posicion){
+
+bool DetalleFactura::leerDeDisco(int posicion){
         bool leyo;
         FILE *p;
         p = fopen(FILE_DETFAC, "rb");

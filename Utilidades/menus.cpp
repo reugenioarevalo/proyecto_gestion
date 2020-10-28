@@ -16,10 +16,40 @@ using namespace rlutil;
 #include "../Include/Entidad.h"
 #include "../Include/Compra.h"
 #include "../Include/DetalleFactura.h"
+#include "../Include/Usuario.h"
 
 
 
 ///---------------------------------------------- MENU PRINCIPAL
+
+void menuLogin(){
+
+	int attempts = 3;
+	bool chequeo;
+
+
+    while(attempts != 0){
+
+		title("LOGIN", WHITE, BLUE);
+		cout << endl << endl;
+
+        chequeo = login();
+
+        if(chequeo == true){
+            attempts = 0;
+        }else{
+        attempts--;
+		}
+		system("pause");
+		system("cls");
+    }
+    if(chequeo == true){
+        menuPrincipal();
+    }else{
+        msj("HA SUPERADO EL LIMITE DE INTENTOS",WHITE,RED,130,TEXT_LEFT);
+        return;
+    }
+}
 
 void menuPrincipal(){
 

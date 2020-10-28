@@ -759,3 +759,221 @@
 	"../Include/Persona.h"
 	"validaciones.h"
 
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\calculadora.cpp
+	<iostream>
+	"calculadora.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\calculadora.h
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\compra.cpp
+
+1603898766 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\detallefactura.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	<iomanip>
+	<conio.h>
+	"DetalleFactura.h"
+	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\detallefactura.h
+
+1603898504 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\entidad.h
+	"../Include/Persona.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\persona.h
+	"Direccion.h"
+	"Fecha.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\direccion.h
+	"Direccion.h"
+	"Fecha.h"
+	"string.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\fecha.h
+	<time.h>
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\centrartabla.h
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\ui.h
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1603898504 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\direccion.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	"Direccion.h"
+	"Fecha.h"
+
+1603901332 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	"Utilidades/menus.h"
+	"Include/Persona.h"
+	"Utilidades/validaciones.h"
+	"Direccion.h"
+	"Include/Entidad.h"
+	"Include/Ventas.h"
+	"DetalleFactura.h"
+	"Usuario.h"
+	"DetalleCompra.h"
+
+1603900068 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\menus.h
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\validaciones.h
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\ventas.h
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\ususario.h
+	<string>
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\login.h
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\detallecompra.h
+
+1603898504 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\entidad.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	<cstdio>
+	<stdlib.h>
+	"../Utilidades/menus.h"
+	"Persona.h"
+	"../Utilidades/validaciones.h"
+	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\fecha.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<time.h>
+	"Direccion.h"
+	"Fecha.h"
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\login.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Login.h"
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\persona.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+	"Persona.h"
+	"Fecha.h"
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/validaciones.h"
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\producto.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"../Include/Producto.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\producto.h
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\ususario.cpp
+	<iostream>
+	<string.h>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	"Ususario.h"
+
+1603900974 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\ventas.cpp
+	<cstdlib>
+	<iostream>
+	<cstdio>
+	<cstring>
+	<conio.h>
+	<time.h>
+	"Ventas.h"
+	"../include/Producto.h"
+
+1603899197 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\centrartabla.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<sstream>
+	"centrarTabla.h"
+
+1603901043 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\menus.cpp
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<ctime>
+	<string.h>
+	<cstring>
+	<cctype>
+	<algorithm>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"../Utilidades/menus.h"
+	"../Include/Entidad.h"
+	"../Include/Compra.h"
+	"../Include/DetalleFactura.h"
+	"../Include/Usuario.h"
+
+1603896135 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\compra.h
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1603896135 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\utilidades\validaciones.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/menus.h"
+	"../Include/Persona.h"
+	"validaciones.h"
+
+1603900720 c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\include\usuario.h
+
+1603901155 source:c:\users\isi97\onedrive\escritorio\isidoro\facultad\2do cuatrimestre 2020\laboratorio ii\proyecto_gestion\src\usuario.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+	"../Include/Usuario.h"
+

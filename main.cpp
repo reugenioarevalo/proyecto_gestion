@@ -12,29 +12,31 @@ using namespace std;
 #include "Include/Entidad.h"
 #include "Include/Ventas.h"
 #include "DetalleFactura.h"
-#include "Ususario.h"
-#include "Login.h"
+#include "Usuario.h"
 #include "DetalleCompra.h"
 
 
-int main()
-{
+int main(){
 
 ///test de entidades
-Entidad ent;
-//ent.cargarProveedor();
-//ent.grabarEnDisco(2);
-ent.listarEntidadesTabla(2);
-///fin test entidades
+//Entidad ent;
+////ent.cargarProveedor();
+////ent.grabarEnDisco(2);
+//ent.listarEntidadesTabla(2);
+/////fin test entidades
+//
+/////test detalleCompra
+//    DetalleCompra obj;
+//    obj.setProveedor();
+//    cout<<endl;
+//    obj.setIdProveedor();
+/////Fin test detallecompras
+//
+/////Menu
 
-///test detalleCompra
-    DetalleCompra obj;
-    obj.setProveedor();
-    cout<<endl;
-    obj.setIdProveedor();
-///Fin test detallecompras
+    menuLogin();
 
-///Menu
-    menuPrincipal();
+    //crearUsuario();
+
     return 0;
 }

@@ -10,15 +10,10 @@
 
 using namespace std;
 
-const char * FILE_VENTAS = "Achivos/Ventas.dat";
+const char * FILE_VENTAS = "Archivos/Ventas.dat";
 const char * FILE_FACTURAA = "Archivos/FacturaA.dat";
 const char * FILE_FACTURAB = "Archivos/FacturaB.dat";
-//const char * FILE_PRODUCTOS = "Archivos/Productos.dat";
 
-//Ventas::Ventas(){
-//    Bonificacion=0;
-//    preciofinal=0;
-//}
 
 void Ventas::CargarVtas(){
     setTipoFact();
@@ -177,7 +172,7 @@ int Ventas::getcantProd(){
 //        }
 //    }
 
-    int crearId(char tipo='B'){
+int crearId(char tipo='B'){
     int bytes, cant;
 
     if(tipo == 'A' || tipo == 'a')  {
@@ -198,5 +193,20 @@ int Ventas::getcantProd(){
             fclose(p);
      }
     cant = bytes / sizeof(Ventas);
+    return cant+1;
+}
+
+/// --------------------- GLOBALES
+
+int crearIdVentas(){
+    int bytes, cant;
+    FILE *p = fopen(FILE_VENTAS, "rb");
+     if (p == NULL){
+        return 1;   ///dado que es el primer registro y no existe el archivo forzamos en nro 1
+    }
+      fseek(p, 0, SEEK_END);
+    bytes = ftell(p);
+    fclose(p);
+	cant = bytes / sizeof(Ventas);
     return cant+1;
 }
