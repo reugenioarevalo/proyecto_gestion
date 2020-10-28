@@ -33,7 +33,7 @@ ENTIDADES
 La clase Entidad contendrá datos de los CLientes y Proveedores distinguiendolos con un campo TipoEntidad, y utilizaría un unico archivo para donde guardar los datos. 
 
 *Entidades:*
-!["Entidades"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/entidades.JPG?raw=true )
+!["Entidades"](https://github.com/reugenioarevalo/proyecto_gestion/blob/master/readme/entdidades.JPG?raw=true )
 
 COMPRAS
 ------------
