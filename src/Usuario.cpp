@@ -6,10 +6,13 @@
 #include <cstdio>
 #include "../Utilidades/ui.h"
 #include "../Utilidades/rlutil.h"
-#include "../Include/Usuario.h"
+#include "Usuario.h"
 
 using namespace std;
 using namespace rlutil;
+
+
+
 
 const char * FILE_USUARIOS = "Archivos/Usuarios.dat";
 
@@ -84,7 +87,6 @@ void crearUsuario(){
 	regAux.ingresarUsuario();
 	regAux.setActivo();
 	regAux.grabarEnDisco();
-    regAux.setId(crearIdUsuario());
 
 }
 
@@ -159,9 +161,6 @@ bool login(){
         system("pause");
         fclose(c);
 }
-/// BOOL LOGIN
-/// REVISAR SI CADA VEZ QUE CHEQUEA PUEDE VER TODOS LOS USUARIOS O UNICAMENTE EL PRIMERO PORQUE HAY RETURNS PERO NO SE SI EL
-/// WHILE LLEGA A VER TODO EL ARCHIVO O SOLO AL PRIMER REGISTRO
 
 void bagaLogicaUsuario(){
 
@@ -181,29 +180,12 @@ void bagaLogicaUsuario(){
         }
 
             while(fread(&usuAux,sizeof(Usuario),1,c)==1){
-                if(usuAux.getId() == idAux){
+                if(usuAux.getId == idAux){
                     cout  << "USER:" << usuAux.getNombreUser() << "\t"<< "PASSWORD:" << usuAux.getPassword();
-                    usuAux.setInactivo();
                 }
                 cout << endl;
             }
         system("pause");
         fclose(c);
         return;
-}
-
-/// --------------------- GLOBALES
-
-int crearIdUsuario(){
-    int bytes, cant;
-
-    FILE *p = fopen(FILE_USUARIOS, "rb");
-     if (p == NULL){
-        return 1;
-    }
-      fseek(p, 0, SEEK_END);
-    bytes = ftell(p);
-    fclose(p);
-	cant = bytes / sizeof(Usuario);
-    return cant+1;
 }

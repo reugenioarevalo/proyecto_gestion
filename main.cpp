@@ -5,6 +5,7 @@
 #include <string.h>
 #include <cstdio>
 using namespace std;
+
 #include "Utilidades/menus.h"
 #include "Include/Persona.h"
 #include "Utilidades/validaciones.h"
@@ -12,31 +13,11 @@ using namespace std;
 #include "Include/Entidad.h"
 #include "Include/Ventas.h"
 #include "DetalleFactura.h"
-#include "Usuario.h"
-#include "DetalleCompra.h"
-
+#include "Include/Usuario.h"
 
 int main(){
 
-///test de entidades
-//Entidad ent;
-////ent.cargarProveedor();
-////ent.grabarEnDisco(2);
-//ent.listarEntidadesTabla(2);
-/////fin test entidades
-//
-/////test detalleCompra
-//    DetalleCompra obj;
-//    obj.setProveedor();
-//    cout<<endl;
-//    obj.setIdProveedor();
-/////Fin test detallecompras
-//
-/////Menu
-
     menuLogin();
-
-    //crearUsuario();
 
     return 0;
 }
