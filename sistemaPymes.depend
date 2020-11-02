@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1604328630 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\main.cpp
+1604328630 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\main.cpp
 	<iostream>
 	<iomanip>
 	<cstdlib>
@@ -17,64 +17,45 @@
 	"DetalleFactura.h"
 	"Include/Usuario.h"
 
-1604328412 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\menus.h
+1604328412 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\menus.h
 
-1604279518 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\persona.h
+1604279518 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\persona.h
 	"Direccion.h"
 	"Fecha.h"
 
-1604278825 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\direccion.h
+1604278825 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\direccion.h
 	"Direccion.h"
 	"Fecha.h"
 	"string.h"
 
-1603139423 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\fecha.h
+1603139423 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\fecha.h
 	<time.h>
 
-1603853644 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\validaciones.h
+1603853644 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\validaciones.h
 
-1604279543 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\entidad.h
+1604279543 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\entidad.h
 	"../Include/Persona.h"
 
-1604269935 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\ventas.h
+1604350689 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\ventas.h
 	"Fecha.h"
 	"DetalleFactura.h"
 	"Calculadora.h"
 	"Producto.h"
 	"Entidad.h"
 
-1604184953 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\detallefactura.h
+1604184953 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\detallefactura.h
 
-1603238712 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\calculadora.h
+1603238712 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\calculadora.h
 
-1604324862 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\producto.h
+1604324862 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\producto.h
 
-1604005549 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\usuario.h
+1604005549 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\usuario.h
 
-1603238649 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\calculadora.cpp
+1603238649 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\calculadora.cpp
 	<iostream>
 	"calculadora.h"
 
-1603890588 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\compra.cpp
-	<iostream>
-	"Fecha.h"
-	"Compra.h"
-	"Entidad.h"
-
-1603890632 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\compra.h
-
-1604266554 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\detallecompra.cpp
-	<iostream>
-	"Fecha.h"
-	"Entidad.h"
-	"Producto.h"
-	"Compra.h"
-	"DetalleCompra.h"
-
-1603932042 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\detallecompra.h
-	"Producto.h"
-
-1604184974 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\detallefactura.cpp
+1604184974 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\detallefactura.cpp
 	<iostream>
 	<cstdlib>
 	<cstring>
@@ -89,11 +70,11 @@
 	"../Utilidades/ui.h"
 	"../Utilidades/rlutil.h"
 
-1604191048 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\centrartabla.h
+1604191048 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\centrartabla.h
 
-1603858997 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\ui.h
+1603858997 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\ui.h
 
-1603061752 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\rlutil.h
+1603061752 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\rlutil.h
 	<iostream>
 	<string>
 	<cstdio>
@@ -107,7 +88,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1604331632 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\detalleventa.cpp
+1604350437 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\detalleventa.cpp
 	<iostream>
 	<cstdlib>
 	<cstring>
@@ -127,19 +108,19 @@
 	"../Utilidades/rlutil.h"
 	"../Utilidades/menus.h"
 
-1604188241 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\detalleventa.h
+1604188241 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\detalleventa.h
 	"Ventas.h"
 
-1604279641 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\productos.h
+1604279641 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\productos.h
 
-1604279524 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\direccion.cpp
+1604279524 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\direccion.cpp
 	<iostream>
 	<cstdlib>
 	<iomanip>
 	"Direccion.h"
 	"Fecha.h"
 
-1604333386 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\entidad.cpp
+1604346395 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\entidad.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
@@ -153,7 +134,7 @@
 	"../Utilidades/ui.h"
 	"../Utilidades/rlutil.h"
 
-1603144284 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\fecha.cpp
+1603144284 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\fecha.cpp
 	<iostream>
 	<cstdlib>
 	<iomanip>
@@ -161,7 +142,7 @@
 	"Direccion.h"
 	"Fecha.h"
 
-1603471166 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\login.cpp
+1603471166 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\login.cpp
 	<iostream>
 	<string.h>
 	<stdio.h>
@@ -169,9 +150,9 @@
 	<conio.h>
 	"Login.h"
 
-1603467760 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\login.h
+1603467760 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\login.h
 
-1603852784 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\persona.cpp
+1603852784 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\persona.cpp
 	<iostream>
 	<cstring>
 	<iomanip>
@@ -181,7 +162,7 @@
 	"../Utilidades/ui.h"
 	"../Utilidades/validaciones.h"
 
-1604331386 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\producto.cpp
+1604344481 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\producto.cpp
 	<iostream>
 	<cstdlib>
 	<cstdio>
@@ -189,7 +170,7 @@
 	<iomanip>
 	"../Include/Producto.h"
 
-1604333702 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\productos.cpp
+1604334693 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\productos.cpp
 	<iostream>
 	<cstdlib>
 	<cstdio>
@@ -201,7 +182,7 @@
 	"../Utilidades/rlutil.h"
 	"../Utilidades/ui.h"
 
-1604005549 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\usuario.cpp
+1604005549 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\usuario.cpp
 	<iostream>
 	<iomanip>
 	<cstdlib>
@@ -212,18 +193,7 @@
 	"../Utilidades/rlutil.h"
 	"Usuario.h"
 
-1603465289 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\ususario.cpp
-	<iostream>
-	<string.h>
-	<cstdio>
-	<cstdlib>
-	<conio.h>
-	"Ususario.h"
-
-1603465302 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\include\ususario.h
-	<string>
-
-1604331504 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\src\ventas.cpp
+1604344842 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\ventas.cpp
 	<cstdlib>
 	<iostream>
 	<cstdio>
@@ -243,14 +213,87 @@
 	"../Utilidades/ui.h"
 	"../Utilidades/menus.h"
 
-1604190959 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\centrartabla.cpp
+1604190959 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\centrartabla.cpp
 	<iostream>
 	<iomanip>
 	<conio.h>
 	<sstream>
 	"centrarTabla.h"
 
-1604333946 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\menus.cpp
+1603857926 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1603853649 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\validaciones.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/menus.h"
+	"../Include/Persona.h"
+	"validaciones.h"
+
+1604350065 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\compras.cpp
+	<cstdlib>
+	<iostream>
+	<cstdio>
+	<cstring>
+	<conio.h>
+	<time.h>
+	<iomanip>
+	<locale.h>
+	"Compras.h"
+	"Fecha.h"
+	"DetalleVenta.h"
+	"DetalleVenta.h"
+	"DetalleFactura.h"
+	"Calculadora.h"
+	"Producto.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/menus.h"
+	"Entidad.h"
+
+1604349973 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\compras.h
+	"Fecha.h"
+	"DetalleCompra.h"
+	"Calculadora.h"
+	"Producto.h"
+	"Entidad.h"
+
+1604349733 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\detallecompra.h
+	"Producto.h"
+	"Entidad.h"
+	"Compras.h"
+
+1604350306 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\src\detallecompra.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<cstdio>
+	<time.h>
+	<iomanip>
+	<conio.h>
+	<locale.h>
+	"Producto.h"
+	"Productos.h"
+	"Entidad.h"
+	"Calculadora.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+	"../Utilidades/menus.h"
+	"Fecha.h"
+	"Entidad.h"
+	"Producto.h"
+	"DetalleCompra.h"
+	"Compras.h"
+
+1604340253 source:d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\utilidades\menus.cpp
 	<iostream>
 	<cstdio>
 	<stdlib.h>
@@ -265,28 +308,11 @@
 	"../Utilidades/menus.h"
 	"../Include/Entidad.h"
 	"../Include/Ventas.h"
-	"../Include/Compra.h"
+	"../Include/Compras.h"
 	"../Include/DetalleVenta.h"
 	"../Include/DetalleFactura.h"
 	"../Include/DetalleCompra.h"
 	"../Include/Producto.h"
 	"../Include/Productos.h"
 	"../Include/Usuario.h"
-
-1603857926 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\ui.cpp
-	<iostream>
-	<cstring>
-	"ui.h"
-	"rlutil.h"
-
-1603853649 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\utilidades\validaciones.cpp
-	<iostream>
-	<string>
-	<string.h>
-	<stdlib.h>
-	"../Utilidades/rlutil.h"
-	"../Utilidades/ui.h"
-	"../Utilidades/menus.h"
-	"../Include/Persona.h"
-	"validaciones.h"
 
