@@ -981,3 +981,225 @@
 
 1603927614 c:\users\daveq\documents\codeblocks\utn\laboratorio 2\proyecto_gestion - euge - clase productos\include\productos.h
 
+1603927725 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	"Utilidades/menus.h"
+	"Include/Persona.h"
+	"Utilidades/validaciones.h"
+	"Direccion.h"
+	"Include/Entidad.h"
+	"Include/Ventas.h"
+	"DetalleFactura.h"
+	"Ususario.h"
+	"Login.h"
+	"DetalleCompra.h"
+	"Include/Producto.h"
+	"Include/Productos.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\menus.h
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\persona.h
+	"Direccion.h"
+	"Fecha.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\direccion.h
+	"Direccion.h"
+	"Fecha.h"
+	"string.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\fecha.h
+	<time.h>
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\validaciones.h
+
+1603897588 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\entidad.h
+	"../Include/Persona.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\ventas.h
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\detallefactura.h
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\ususario.h
+	<string>
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\login.h
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\detallecompra.h
+
+1603929463 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\producto.h
+
+1603927614 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\productos.h
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\calculadora.cpp
+	<iostream>
+	"calculadora.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\calculadora.h
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\compra.cpp
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\detallefactura.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	<iomanip>
+	<conio.h>
+	"DetalleFactura.h"
+	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\centrartabla.h
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\ui.h
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1603897588 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\direccion.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	"Direccion.h"
+	"Fecha.h"
+
+1603897588 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\entidad.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	<cstdio>
+	<stdlib.h>
+	"../Utilidades/menus.h"
+	"Persona.h"
+	"../Utilidades/validaciones.h"
+	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\fecha.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<time.h>
+	"Direccion.h"
+	"Fecha.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\login.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Login.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\persona.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+	"Persona.h"
+	"Fecha.h"
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/validaciones.h"
+
+1603929549 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\producto.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<iomanip>
+	"../Include/Producto.h"
+
+1603929472 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\productos.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstring>
+	"Productos.h"
+	"Producto.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\ususario.cpp
+	<iostream>
+	<string.h>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	"Ususario.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\src\ventas.cpp
+	<cstdlib>
+	<iostream>
+	<cstdio>
+	<cstring>
+	<conio.h>
+	<time.h>
+	"Ventas.h"
+	"../include/Producto.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\centrartabla.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<sstream>
+	"centrarTabla.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\menus.cpp
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<ctime>
+	<string.h>
+	<cstring>
+	<cctype>
+	<algorithm>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"../Utilidades/menus.h"
+	"../Include/Entidad.h"
+	"../Include/Compra.h"
+	"../Include/DetalleFactura.h"
+
+1603896112 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\include\compra.h
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1603896112 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\dave\utilidades\validaciones.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/menus.h"
+	"../Include/Persona.h"
+	"validaciones.h"
+

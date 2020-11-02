@@ -567,3 +567,214 @@
 1603932042 d:\reuge\documents\utn\2do cuatri\lab2\clases\tpcontable\sistemapyme\eugenio\include\detallecompra.h
 	"Producto.h"
 
+1603902267 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	"Utilidades/menus.h"
+	"Include/Persona.h"
+	"Utilidades/validaciones.h"
+	"Direccion.h"
+	"Include/Entidad.h"
+	"Include/Ventas.h"
+	"DetalleFactura.h"
+	"Ususario.h"
+	"Login.h"
+	"DetalleCompra.h"
+
+1603061752 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\menus.h
+
+1603854820 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\persona.h
+	"Direccion.h"
+	"Fecha.h"
+
+1603851424 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\direccion.h
+	"Direccion.h"
+	"Fecha.h"
+	"string.h"
+
+1603139423 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\fecha.h
+	<time.h>
+
+1603853644 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\validaciones.h
+
+1603915172 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\entidad.h
+	"../Include/Persona.h"
+
+1603413295 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\ventas.h
+
+1603477956 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\detallefactura.h
+
+1603465302 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\ususario.h
+	<string>
+
+1603467760 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\login.h
+
+1603932042 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\detallecompra.h
+	"Producto.h"
+
+1603329811 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\producto.h
+
+1603238649 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\calculadora.cpp
+	<iostream>
+	"calculadora.h"
+
+1603238712 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\calculadora.h
+
+1603890588 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\compra.cpp
+	<iostream>
+	"Fecha.h"
+	"Compra.h"
+	"Entidad.h"
+
+1603890632 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\include\compra.h
+
+1603896772 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\detallefactura.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<string.h>
+	<cstdio>
+	<iomanip>
+	<conio.h>
+	"DetalleFactura.h"
+	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+
+1603682094 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\centrartabla.h
+
+1603858997 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\ui.h
+
+1603061752 d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1603895633 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\direccion.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	"Direccion.h"
+	"Fecha.h"
+
+1603915162 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\entidad.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	<cstdio>
+	<stdlib.h>
+	"../Utilidades/menus.h"
+	"Persona.h"
+	"../Utilidades/validaciones.h"
+	"Entidad.h"
+	"../Utilidades/centrarTabla.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/rlutil.h"
+
+1603144284 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\fecha.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<time.h>
+	"Direccion.h"
+	"Fecha.h"
+
+1603471166 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\login.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Login.h"
+
+1603852784 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\persona.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+	"Persona.h"
+	"Fecha.h"
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/validaciones.h"
+
+1603903973 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\producto.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"Producto.h"
+
+1603465289 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\ususario.cpp
+	<iostream>
+	<string.h>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	"Ususario.h"
+
+1603413295 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\src\ventas.cpp
+	<cstdlib>
+	<iostream>
+	<cstdio>
+	<cstring>
+	<conio.h>
+	<time.h>
+	"Ventas.h"
+	"../include/Producto.h"
+
+1603682094 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\centrartabla.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<sstream>
+	"centrarTabla.h"
+
+1603907033 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\menus.cpp
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<ctime>
+	<string.h>
+	<cstring>
+	<cctype>
+	<algorithm>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"../Utilidades/menus.h"
+	"../Include/Entidad.h"
+	"../Include/Compra.h"
+	"../Include/DetalleFactura.h"
+	"../Include/DetalleCompra.h"
+
+1603857926 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1603853649 source:d:\reuge\documents\utn\2do cuatri\lab2\tp 2do parcial\proyecto_gestion\iuyin\utilidades\validaciones.cpp
+	<iostream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"../Utilidades/rlutil.h"
+	"../Utilidades/ui.h"
+	"../Utilidades/menus.h"
+	"../Include/Persona.h"
+	"validaciones.h"
+
