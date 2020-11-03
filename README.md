@@ -14,7 +14,6 @@ TP LAB 2 2020 UTN FRGP
 VIDEO PRESENTACION
 -------------------
 *Video:*
-!["Video"](https://youtu.be/KXJ7ZKgU1tY "Video")
 <a href="https://youtu.be/KXJ7ZKgU1tY">https://youtu.be/KXJ7ZKgU1tY</a>
 
 ------------------------------
