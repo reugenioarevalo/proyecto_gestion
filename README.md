@@ -11,6 +11,11 @@ TP LAB 2 2020 UTN FRGP
 
 **QUINTEROS, David**
 
+VIDEO PRESENTACION
+-------------------
+*Video:*
+!["Video"](https://youtu.be/KXJ7ZKgU1tY "Video")
+
 ------------------------------
 
 INTRODUCCION
