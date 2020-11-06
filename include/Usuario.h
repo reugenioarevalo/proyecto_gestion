@@ -13,8 +13,9 @@ class Usuario{
 //		virtual ~Usuario();
         void setNombreUser();
         void setPassword();
+        void setPassword(int newPass){this->password = newPass;}
         void setActivo(){this->estado = true;}
-        void setInactivo(){this->estado = false;}
+        void setInactivo(bool nuevoEstado){this->estado = nuevoEstado;}
         void ingresarUsuario();
         void setIdUser(int id){this->idUser = id;}
         bool grabarEnDisco();
@@ -30,12 +31,16 @@ class Usuario{
 
 void crearUsuario();
 
-bool login();
+int login();
 
 void listarUsuarios();
 
 int crearIdUsuario();
 
+void bajaLogicaUsuario();
 
+int crearIdUsuario();
+
+void cambiarPassword();
 
 #endif // USUARIO_H
